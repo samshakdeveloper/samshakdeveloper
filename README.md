@@ -29,33 +29,36 @@ My work is meant to be judged by what is in the repository: the architecture, th
 | **No key-person risk** | Another engineer can pick up the project from the documentation alone. |
 | **Written and async** | Text-only communication, always online, quick to respond. |
 
-## Featured project: Nexus
+## Featured project: Nexus Enterprise
 
-A production-style monorepo that shows how I structure, document, and operate a backend platform end to end.
+An event-driven TypeScript monorepo built to demonstrate enterprise-grade Node.js standards: business logic decoupled from frameworks, asynchronous messaging, containerized deployment, and end-to-end tracing.
 
 **Repository:** [`nexus-enterprise`](https://github.com/samshakdeveloper/nexus-enterprise)
 
-| Area | What it contains |
+| Area | What it demonstrates |
 | --- | --- |
-| **API layer** | Fastify service with a clean, layered architecture |
-| **Federation** | GraphQL Mesh gateway over the underlying services |
-| **Asynchronous workers** | Dedicated email, event, and PDF workers |
-| **Platform** | Docker and Kubernetes configuration, monitoring |
-| **Documentation** | ADRs, runbooks, and setup and operations guides |
+| **Architecture** | Domain-Driven Design, Hexagonal Architecture (ports and adapters), and CQRS. Domain and application layers stay framework-agnostic. |
+| **Messaging** | Event-driven integration on Apache Kafka, using the Outbox Pattern for reliable event publishing. |
+| **API and gateway** | Fastify services with a GraphQL Mesh gateway. Redis for caching. |
+| **Type safety** | Strict TypeScript with Zod schema contracts end to end. |
+| **Observability** | OpenTelemetry tracing with a Grafana-based monitoring stack. |
+| **Platform** | Docker Compose for local development, Kubernetes manifests, and Argo CD application definitions (GitOps). |
+| **Quality gates** | GitHub Actions CI, Vitest, ESLint, Prettier, Husky pre-commit hooks, lint-staged, and Conventional Commits enforced by commitlint. |
+| **Developer velocity** | Turborepo build caching across the workspace. |
 
-Start with the documentation. It is written so you can evaluate the system without running it.
+Start with the repository README: architecture overview, workspace topology, and the getting-started guide.
 
 ## Core stack
 
 | Domain | Technologies |
 | --- | --- |
-| **Backend** | Node.js, TypeScript, Fastify, Express, REST, GraphQL, webhooks |
-| **Architecture** | Event-driven design, clean architecture, asynchronous worker queues |
-| **Data** | MongoDB (including vector search and indexing), Redis |
-| **Web3** | Ethers.js, Web3.js, EVM event listening, on-chain USDT settlement |
-| **AI integration** | OpenAI APIs, RAG, function calling, vector search |
-| **Infrastructure** | Docker, Kubernetes, monitoring and observability |
-| **Automation** | High-volume Telegram bot engines |
+| **Backend** | Node.js, TypeScript, Fastify, GraphQL, GraphQL Mesh, REST, webhooks |
+| **Architecture** | DDD, CQRS, Hexagonal Architecture, event-driven design, Outbox Pattern |
+| **Messaging and data** | Apache Kafka, Redis, MongoDB |
+| **Observability** | OpenTelemetry, Grafana |
+| **Infrastructure** | Docker, Kubernetes, Argo CD, GitHub Actions, Turborepo |
+| **Quality** | Vitest, ESLint, Prettier, Zod, commitlint, Husky |
+| **Also worked with** | Express, Ethers.js, Web3.js, EVM event listening, on-chain USDT settlement, OpenAI APIs, RAG, vector search, Telegram bot engines |
 
 ## Working together
 
