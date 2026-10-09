@@ -33,7 +33,7 @@ My work is meant to be judged by what is in the repository: the architecture, th
 
 A production-style monorepo that shows how I structure, document, and operate a backend platform end to end.
 
-**Repository:** [`nexus-enterprise2`](https://github.com/samshakdeveloper/nexus-enterprise2)
+**Repository:** [`nexus-enterprise`](https://github.com/samshakdeveloper/nexus-enterprise)
 
 | Area | What it contains |
 | --- | --- |
