@@ -58,14 +58,7 @@ Start with the repository README: architecture overview, workspace topology, and
 | **Infrastructure** | Docker, Kubernetes, Argo CD, GitHub Actions, Turborepo |
 | **Quality** | Vitest, ESLint, Prettier, Zod, commitlint, Husky |
 | **Also worked with** | Express, Ethers.js, Web3.js, EVM event listening, on-chain USDT settlement, OpenAI APIs, RAG, vector search, Telegram bot engines |
-
-## Working together
-
-I take on remote backend engineering work as an independent contractor. The terms are short and explicit: [**Working Terms (PDF)**](./Sam-Shak-Working-Terms.pdf).
-
-- **Instead of an interview:** I will complete a small, well-defined task (under one day) and push the source, so you can assess the result directly.
-- **Before we start:** review the code and documentation in this profile and confirm you are comfortable with the style.
-- **Fit:** my terms are built around the work. Teams that evaluate a contractor by deliverable quality (architecture, code, tests, documentation) are the right match.
+ 
 
 ## Contact
 
