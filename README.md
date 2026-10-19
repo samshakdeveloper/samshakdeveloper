@@ -7,8 +7,7 @@
 
 <p align="center">
   <a href="mailto:samshakdeveloper@proton.me">Email</a> ·
-  <a href="https://t.me/sam_shak">Telegram</a> ·
-  <a href="./Sam-Shak-Working-Terms.pdf">Working Terms (PDF)</a>
+  <a href="https://t.me/sam_shak">Telegram</a> · 
 </p>
 
 ---
