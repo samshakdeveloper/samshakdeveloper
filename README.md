@@ -1,7 +1,7 @@
 <h1 align="center">Sam Shak</h1>
 
 <p align="center">
-  <strong>Lead Software Architect | Senior Backend Engineer | TypeScript, Node.js, Kafka, DDD | Building no key-person-risk systems | Remote </strong><br/>
+  <strong>Senior Backend Engineer | TypeScript, Node.js, Kafka, DDD | Building no key-person-risk systems | Remote </strong><br/>
   Remote, written, async-first
 </p>
 
